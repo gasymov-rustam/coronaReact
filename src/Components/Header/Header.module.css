@@ -1,0 +1,8 @@
+.generalTitle {
+    color: white;
+    font-size: 44px;
+    margin: 0 auto;
+    padding: 16px 0;
+    text-align: center;
+    border-bottom: 0.2px solid rgb(61, 61, 61);
+  }

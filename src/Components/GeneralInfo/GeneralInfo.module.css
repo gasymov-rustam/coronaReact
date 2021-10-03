@@ -1,0 +1,47 @@
+.general-information {
+  display: flex;
+  border-bottom: 0.2px solid rgb(61, 61, 61);
+  background: #202128;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding: 16px 8px;
+  gap: 10px;
+}
+.general-information__confirmed {
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.general-information__deaths {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.general-information__recovered {
+  color: green;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.general-information__existing {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper-data__delta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+}

@@ -1,0 +1,25 @@
+.load {
+  font-size: 54px;
+  text-align: center;
+  color: aqua;
+  margin-top: 150px;
+}
+
+.btn {
+  width: calc(100% / 2);
+  padding: 16px 0;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  background: #292b33;
+  color: lightgray;
+  margin-bottom: 20px;
+}
+
+.btnActive {
+  background: #202128;
+}
+
+.wrapperBtn {
+  width: 100%;
+}

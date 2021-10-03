@@ -1,0 +1,62 @@
+.wrapper-data {
+    display: flex;
+    border-bottom: 0.2px solid rgb(61, 61, 61);
+    background: #202128;
+  }
+  
+  .wrapper-data:hover {
+    background: #292B33;
+    cursor: pointer;
+  }
+  
+  .wrapper-data > dt,
+  dd {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .wrapper-data > dd {
+    width: 40%;
+    justify-content: flex-end;
+    width: 15%;
+  }
+  
+  .wrapper-data__country {
+    width: 40%;
+    color: darkgray;
+  }
+  
+  .wrapper-data__confirmed {
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .wrapper-data__deaths {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .wrapper-data__recovered {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .wrapper-data__existing {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .wrapper-data__delta {
+    font-size: .8em;
+  }
+  
