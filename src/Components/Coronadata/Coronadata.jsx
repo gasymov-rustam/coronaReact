@@ -13,7 +13,8 @@ export default function Coronadata() {
   const [load, setLoad] = useState(true);
   const [count, setCount] = useState(0);
   const [coronaRegion, setCoronaRegion] = useState([]);
-
+  const [one, setOne] = useState(true);
+  console.log(one);
   useEffect(() => {
     console.log(9999);
     axios
@@ -25,7 +26,7 @@ export default function Coronadata() {
         setCoronaRegion(Object.keys(res.data));
       })
       .catch((error) => console.warn(error));
-  }, []);
+  }, [one]);
 
   const currentCount = (idx) => {
     setCount(idx);
@@ -46,7 +47,7 @@ export default function Coronadata() {
           </button>
         ))}
       </div>
-      <Filter arraySet={setCoronaArray} array={coronaArray} />
+      <Filter arraySet={setCoronaArray} status={setOne} array={coronaArray} />
 
       <GeneralInfo array={coronaArray} />
 
